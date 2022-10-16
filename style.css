@@ -1,0 +1,426 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E1D8C7;
+    overflow-x: hidden;
+}
+
+#header{
+
+ width: 100%;
+ height: 150px;
+ background-color: #C6B097;
+
+}
+
+nav{
+
+    display: flex;
+    height: 150px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+
+.logo img{
+
+   max-height: 300px;
+
+}
+
+.secciones{
+
+    text-transform: capitalize;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    margin: 15px;
+}
+
+.imagenes-de-presentacion{
+    width: 100%;
+    height: 400px;
+  
+}
+
+.titulo{
+    font-weight: 100;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: center;
+}
+
+.texto-inicio{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    column-count: 3;
+    column-gap: 3px;
+    column-rule: 1px solid gray;
+    
+}
+
+
+.inicio img{
+
+    float: left; 
+    width: 400px; 
+    height: 400px;
+    object-fit: cover;
+    margin: 20px;
+    
+ }
+
+input{
+
+  display: block;
+  margin: auto;
+  text-align: center;
+
+}
+
+
+.pasteles-de-presentacion img{
+    width: 260px;
+    height: 300px;
+    margin: 3px;
+    object-fit: cover;
+    
+
+}
+
+.boton-container{
+    width: 500px;
+    margin: 30px auto;
+
+}
+
+.boton{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.titulo-secundario{
+
+    text-align: center;
+    padding: 5px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    
+
+}
+
+.textop{
+
+     text-align: center;
+
+}
+
+.inicio{
+
+  background-color: rgb(238, 198, 172);
+  width: 100%;
+  height: 450px;
+
+}
+
+
+.ordenar{
+
+    width: 350px;
+    height: 40px;
+    margin: 10px auto;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+h2{
+
+    font-size: 20px;
+    font-weight: lighter;
+    
+}
+
+.shop-container{
+
+width: 100%;
+background-color: #F6E5D5;
+
+
+}
+
+.area-de-compras{
+
+  text-align: center;
+  font-weight: lighter;
+  padding: 10px;
+  
+
+}
+
+.shopping{
+
+
+  display: inline-block;
+  box-sizing: border-box;
+  width: 400px;
+  height: 420px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 28px 28px 50px rgba(0, 0, 0, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+}
+
+.shop{
+
+    width: 100%;
+    padding: 4px;
+
+}
+
+.find{
+
+border: 1px solid #D1AC8D;
+ margin: 40px auto;
+ width: 400px;
+ padding: 20px;
+ background-color: #FFCDA7;
+
+}
+
+.shopping-1{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 400px;
+  height: 420px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 28px 28px 50px rgba(0, 0, 0, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.process-text{
+
+    text-align: center;
+    font-weight: lighter;
+    padding: 50px;
+
+}
+
+img{
+
+    object-fit: cover;
+    
+     }
+     
+
+table th{
+    border: 1px solid black;
+    font-size: 25px;
+    font-weight: lighter;
+    
+}
+
+table td{
+
+   padding: 20px;
+
+}
+
+footer{
+
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  background-color: #C6B097;
+  margin-top: 50px;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 600px){
+
+   #header{
+
+    height: 200px;
+
+   }
+
+   .logo img{ 
+    height: 200px;
+}
+
+  
+   nav{
+
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    justify-content: center;
+
+   }
+
+ .secciones{
+ 
+     margin: 10px;
+
+ }
+
+ 
+ .imagenes-de-presentacion{
+
+    
+     height: 160px;
+
+ }
+
+ .pasteles-de-presentacion img{
+
+     width: 150px;
+     height: 150px;
+
+
+ }
+
+ 
+ .pasteles-de-presentacion img:nth-child(4){
+
+   display: none;
+
+ }
+
+ .pasteles-de-presentacion img:nth-child(5){
+
+   display: none;
+
+ }
+
+
+  .titulo-secundario{
+
+     font-weight: lighter;
+     font-size: 30px;
+      
+
+  }
+
+  .inicio{
+
+  
+   height: 600px;
+
+  }
+
+  .inicio img{
+
+   
+    width: 600px;
+     height: 200px;
+     margin: 0;
+
+  }
+
+.contenedor-de-compras{
+    padding: 25px;
+}
+
+.contenedor-de-compras2{
+    padding: 25px;
+}
+
+table{
+   
+    border-collapse: collapse;
+}
+
+table th{
+ 
+    font-size: 20px;
+
+}
+
+table td{
+    
+    padding: 0;
+    padding-left: 20px;
+    border: 1px solid black;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
